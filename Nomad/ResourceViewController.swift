@@ -60,11 +60,11 @@ class ResourceViewController: UIViewController {
         return stack
     }()
     
-    let automationJob: UIButton = {
+    let combatJob: UIButton = {
         let button = UIButton(type: .system)
         button.translatesAutoresizingMaskIntoConstraints = false
-        button.setTitle("Automation Job", for: .normal)
-        button.addTarget(self, action: #selector(automateJobTapped), for: .touchUpInside)
+        button.setTitle("Combat Practice", for: .normal)
+        button.addTarget(self, action: #selector(combatJobTapped), for: .touchUpInside)
         return button
     }()
 
@@ -81,7 +81,7 @@ class ResourceViewController: UIViewController {
         moneyLabel.text = "$:\(money)"
     }
     
-    @objc func automateJobTapped() {
+    @objc func combatJobTapped() {
         timer = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true, block: { (timer) in
             self.money += 1
             self.moneyLabel.text = "$:\(self.money)"
@@ -96,7 +96,7 @@ extension ResourceViewController {
         view.addSubview(moneyLabel)
         view.addSubview(oddJobsButton)
         
-        buyingVStack.addArrangedSubview(automationJob)
+        buyingVStack.addArrangedSubview(combatJob)
         scrollView.addSubview(buyingVStack)
         view.addSubview(scrollView)
     }

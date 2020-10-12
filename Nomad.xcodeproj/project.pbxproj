@@ -15,6 +15,7 @@
 		5D5C42AD2533751200811127 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5C42AC2533751200811127 /* MainTabController.swift */; };
 		5D5C42B02533772900811127 /* GeoMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5C42AF2533772900811127 /* GeoMapViewController.swift */; };
 		5D5C42B32533775800811127 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5C42B22533775800811127 /* SettingsViewController.swift */; };
+		5D5C42B72534227600811127 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5C42B62534227600811127 /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		5D5C42AC2533751200811127 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
 		5D5C42AF2533772900811127 /* GeoMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoMapViewController.swift; sourceTree = "<group>"; };
 		5D5C42B22533775800811127 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		5D5C42B62534227600811127 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				5D5C42AC2533751200811127 /* MainTabController.swift */,
 				5D5C42AF2533772900811127 /* GeoMapViewController.swift */,
 				5D5C42B22533775800811127 /* SettingsViewController.swift */,
+				5D5C42B62534227600811127 /* File.swift */,
 			);
 			path = Nomad;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			files = (
 				5D5C428725325F6600811127 /* ResourceViewController.swift in Sources */,
 				5D5C428325325F6600811127 /* AppDelegate.swift in Sources */,
+				5D5C42B72534227600811127 /* File.swift in Sources */,
 				5D5C42B02533772900811127 /* GeoMapViewController.swift in Sources */,
 				5D5C42AD2533751200811127 /* MainTabController.swift in Sources */,
 				5D5C428525325F6600811127 /* SceneDelegate.swift in Sources */,
