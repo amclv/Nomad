@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		5D5C428325325F6600811127 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5C428225325F6600811127 /* AppDelegate.swift */; };
 		5D5C428525325F6600811127 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5C428425325F6600811127 /* SceneDelegate.swift */; };
-		5D5C428725325F6600811127 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5C428625325F6600811127 /* ViewController.swift */; };
+		5D5C428725325F6600811127 /* ResourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5C428625325F6600811127 /* ResourceViewController.swift */; };
 		5D5C428C25325F6700811127 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D5C428B25325F6700811127 /* Assets.xcassets */; };
 		5D5C428F25325F6700811127 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D5C428D25325F6700811127 /* LaunchScreen.storyboard */; };
 		5D5C42AD2533751200811127 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5C42AC2533751200811127 /* MainTabController.swift */; };
@@ -21,7 +21,7 @@
 		5D5C427F25325F6600811127 /* Nomad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nomad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D5C428225325F6600811127 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D5C428425325F6600811127 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5D5C428625325F6600811127 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5D5C428625325F6600811127 /* ResourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceViewController.swift; sourceTree = "<group>"; };
 		5D5C428B25325F6700811127 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D5C428E25325F6700811127 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D5C429025325F6700811127 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 			children = (
 				5D5C428225325F6600811127 /* AppDelegate.swift */,
 				5D5C428425325F6600811127 /* SceneDelegate.swift */,
-				5D5C428625325F6600811127 /* ViewController.swift */,
+				5D5C428625325F6600811127 /* ResourceViewController.swift */,
 				5D5C428B25325F6700811127 /* Assets.xcassets */,
 				5D5C428D25325F6700811127 /* LaunchScreen.storyboard */,
 				5D5C429025325F6700811127 /* Info.plist */,
@@ -142,7 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D5C428725325F6600811127 /* ViewController.swift in Sources */,
+				5D5C428725325F6600811127 /* ResourceViewController.swift in Sources */,
 				5D5C428325325F6600811127 /* AppDelegate.swift in Sources */,
 				5D5C42B02533772900811127 /* GeoMapViewController.swift in Sources */,
 				5D5C42AD2533751200811127 /* MainTabController.swift in Sources */,

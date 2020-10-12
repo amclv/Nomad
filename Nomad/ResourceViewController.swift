@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ResourceViewController: UIViewController {
     
     var timer: Timer?
     var money: Int = 0
@@ -89,7 +89,7 @@ class ViewController: UIViewController {
     }
 }
 
-extension ViewController {
+extension ResourceViewController {
     private func subviews() {
         view.addSubview(topView)
         view.addSubview(rankImage)

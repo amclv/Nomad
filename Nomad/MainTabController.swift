@@ -15,7 +15,7 @@ class MainTabController: UITabBarController {
     }
     
     func configureViewControllers() {
-        let resources = ViewController()
+        let resources = ResourceViewController()
         let nav1 = templateNavigationController(image: UIImage(systemName: "bolt"), rootViewController: resources)
         
         let explore = GeoMapViewController()
